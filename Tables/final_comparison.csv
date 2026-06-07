@@ -1,0 +1,4 @@
+Model,Accuracy,F1-Score,Training Time (s),Parameters,Grad-CAM Quality,SHAP Interpretability,Overall Finding
+Custom CNN,0.961181,0.960968,854.00,22245700,Medium,Local Focus (Noisy),Good Baseline / High Params
+MobileNetV2,0.999156,0.999156,94.62,2263108,High,Clear Object Boundary,Best Balance / Highly Efficient
+ResNet50,0.941254,0.938912,214.35,23595908,High,Broad Context Selection,Optimized Core / High Depth
