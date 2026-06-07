@@ -7,10 +7,9 @@ Our framework evaluates and compares three different convolutional neural networ
 ## 📂 Project Structure
 ## 📂 Project Structure
 
-* `notebook121e7db419.ipynb` - The primary Jupyter Notebook containing the full pipeline (Data preprocessing, Model training, and XAI evaluations).
+* [`notebook121e7db419.ipynb`](./notebook121e7db419.ipynb) - The primary Jupyter Notebook containing the full pipeline (Data preprocessing, Model training, and XAI evaluations).
 * [Figures/](./Figures) - A dedicated folder containing all our finalized visual outputs, curves, confusion matrices, and XAI heatmaps.
-* [Tables/](./Tables) - A dedicated folder containing our final model evaluation tables and performance metrics. 
-## 🤖 Deep Learning Models Evaluated
+* [Tables/](./Tables) - A dedicated folder containing our final model evaluation tables and performance metrics.
 
 1.  **Custom CNN:** A standalone model built entirely from scratch to establish a baseline for leaf disease detection.
 2.  **MobileNetV2:** A lightweight, highly efficient transfer learning model optimized for speed and edge-device/mobile performance.
