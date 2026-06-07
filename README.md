@@ -3,8 +3,6 @@
 This repository contains a Deep Learning and Explainable AI (XAI) framework designed to identify and classify four major rice leaf diseases: **Bacterial Blight, Blast, Brown Spot, and Tungro**. 
 
 Our framework evaluates and compares three different convolutional neural network architectures to balance high classification accuracy with computational efficiency for real-world agricultural deployment.
-
-## 📂 Project Structure
 ## 📂 Project Structure
 
 * [`notebook121e7db419.ipynb`](./notebook121e7db419.ipynb) - The primary Jupyter Notebook containing the full pipeline (Data preprocessing, Model training, and XAI evaluations).
