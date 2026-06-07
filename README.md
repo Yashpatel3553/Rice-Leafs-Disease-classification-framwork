@@ -5,11 +5,11 @@ This repository contains a Deep Learning and Explainable AI (XAI) framework desi
 Our framework evaluates and compares three different convolutional neural network architectures to balance high classification accuracy with computational efficiency for real-world agricultural deployment.
 
 ## 📂 Project Structure
+## 📂 Project Structure
 
 * `notebook121e7db419.ipynb` - The primary Jupyter Notebook containing the full pipeline (Data preprocessing, Model training, and XAI evaluations).
-* `Figures/` - A dedicated folder containing all our finalized visual outputs, curves, confusion matrices, and XAI heatmaps.
-* `Tables/` - A dedicated folder containing our final model evaluation tables and performance metrics.
-
+* [Figures/](./Figures) - A dedicated folder containing all our finalized visual outputs, curves, confusion matrices, and XAI heatmaps.
+* [Tables/](./Tables) - A dedicated folder containing our final model evaluation tables and performance metrics. 
 ## 🤖 Deep Learning Models Evaluated
 
 1.  **Custom CNN:** A standalone model built entirely from scratch to establish a baseline for leaf disease detection.
@@ -25,6 +25,7 @@ Our benchmarks showed that **MobileNetV2** is the optimal model for this deploym
 | **MobileNetV2** | **99.92%** | **2.26M** | **94.62s** |
 | **Custom CNN** | 96.12% | 22.2M | 854.00s |
 | **ResNet50** | 94.13% | 23.5M | *Frozen Baseline* |
+*All final visualization charts are located inside the [Figures/](./Figures) directory, and data metrics are inside the [Tables/](./Tables) directory.*
 
 
 To ensure our AI makes decisions based on genuine pathological features rather than background noise, we integrated two distinct visual explanation techniques:
